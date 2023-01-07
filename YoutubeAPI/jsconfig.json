@@ -1,0 +1,6 @@
+// 幫助產生JQUERY的語法提示
+{
+    "typeAcquisition":{
+        "include":["jquery"]
+        }
+}

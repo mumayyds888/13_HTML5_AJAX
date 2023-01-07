@@ -1,0 +1,8 @@
+body {
+    text-align: center;
+}
+/*預留歌曲名稱顯示空間*/
+h2 {
+    height: 32px;
+    font-size: medium;
+}
