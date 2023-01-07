@@ -1,0 +1,66 @@
+table {
+    border: 2px solid black;
+    width: 80%;
+}
+
+td{
+    border: px solid black;
+}
+
+#thisFormatResult, #thisDurationResult {
+    font-weight: bold;
+}
+
+
+
+#dropbox {
+    width: 500px;
+    height: 200px;
+    padding: 10px;
+    background-color: lightgray;
+    color: blue;
+    font-weight: bold;
+    font-size: 20px;
+    border: 5px dashed black;;
+}
+
+#preview {
+    font-size: 24px;
+}
+
+
+#people {
+    width: 500px;
+    height: 200px;
+    padding: 10px;
+    background-color: lightgray;
+    color: blue;
+    font-weight: bold;
+    font-size: 20px;
+    border: 5px dashed black;
+}
+
+#back {
+    width: 500px;
+    height: 200px;
+    padding: 10px;
+    background-color: lightgray;
+    color: blue;
+    font-weight: bold;
+    font-size: 20px;
+    border: 5px dashed black;
+}
+#mess {
+    width: 800px;
+    height: 500px;
+    padding: 10px;
+    background-color: lightgray;
+    color: blue;
+    font-weight: bold;
+    font-size: 20px;
+    border: 5px dashed black;
+    background-image: url('image1.png'),url('image2.png');
+}
+
+
+

@@ -1,0 +1,58 @@
+#car {
+    position: fixed;
+    width: 200px;
+    height: 100px;
+    background-color: green;
+    left: 20px;
+    top: 20px;
+}
+
+/* rotating：自己定義 */
+/* .wheel {
+    width: 50px;
+    animation-name: rotating; 
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    
+} */
+
+.wheel {
+    width: 50px;
+    animation: rotating 2s infinite linear; 
+    
+}
+
+@keyframes rotating {
+    /* from {transform: rotate(0deg);}
+    to {transform: rotate(360deg);} */
+    0% {
+        transform: rotate(0deg);
+    }
+    25% {
+        /* transform: scale(2,2); */
+        transform: rotate(90deg);
+    }
+    50% {
+        /* transform:  scale(1,1); */
+        transform: rotate(270deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+#leftwheel {
+    position: relative;
+    left: 30px;
+    top: 80px;
+}
+
+#rightwheel {
+    position: relative;
+    left: 80px;
+    top: 80px;
+}
+
+/* https://www.w3schools.com/cssref/css3_pr_animation.php */
+/* Z-index */

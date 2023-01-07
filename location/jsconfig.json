@@ -1,0 +1,13 @@
+{
+    "typeAcquisition": {
+        "include": [
+            "jquery"
+        ]
+    }
+}
+
+
+
+// 終端機
+// npm install
+// typescript -g：微軟開發的
